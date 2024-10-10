@@ -8,7 +8,7 @@ function RedirectAuthenticatedUserLayout() {
     return <Navigate to="/" replace />;
   }
 
-  return <Outlet />; // Render nested routes here
+  return <Outlet />;
 }
 
 export default RedirectAuthenticatedUserLayout;
